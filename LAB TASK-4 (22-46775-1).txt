@@ -32,7 +32,7 @@ EXERCISE 5.Find the location where maximum number of employee is located
 select max(loc)
 from dept;
 
-EXERCISE 6.Find out job group having highest amount of total salary. (Sal + comm)
+EXERCISE 6.Find  highest amount of total salary. (Sal + comm)
 
 select max(sum(sal))
 from emp
